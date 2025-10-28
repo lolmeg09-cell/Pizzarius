@@ -1,0 +1,64 @@
+nav {
+    object-fit: cover;
+    width: 100%;
+    background-color: black;
+    border-bottom: 1px solid orange;
+    padding: 10px;
+    
+}
+
+
+h1,ul li{
+    color:white;
+}
+
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 550px;
+    background-image: url("../img/pizza.jpg");
+    background-size: cover;
+}
+
+
+body{
+    margin: 0px;
+}
+
+
+#forside{
+    opacity: 50%;
+    border: 1px solid orange;
+    background-color: black;
+    height: 250px;
+    width: 500px;
+    border-radius: 5px;
+  
+}
+
+
+#text{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+.button{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+   
+
+ 
+}
